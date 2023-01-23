@@ -1,6 +1,7 @@
 
 body {
-    background: url(img/22.png) no-repeat 50px 300px;
+    background: url(img/22.png) fixed no-repeat 50px 300px;
+    background-size: 25%;
     background-color: black;
     color: whitesmoke
 }
@@ -24,10 +25,16 @@ h2 {
     border-bottom: 1px solid red;
     margin-bottom: 0;
 }
-img {
-    border-radius: 10px;
+
+.photo {
+    text-align: center;
 }
 
-.block-left{width:50%;height:1200px;overflow:auto;float:left;}
-.block-right{width:50%;height:1200px;overflow:auto;}
+.photo_img {
+    border-radius: 10px;
+}
+.wrapper {
+    width: 50%;
+    float: left;
+}
 
