@@ -20,7 +20,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
 }
-h2 {
+.title {
+    font-size: 25px;
     display: inline-block;
     border-bottom: 1px solid red;
     margin-bottom: 0;
@@ -31,9 +32,12 @@ h2 {
 }
 
 .photo_img {
+
     border-radius: 10px;
+    width: 80%;
 }
 .wrapper {
+    margin-top: 0 px;
     width: 50%;
     float: left;
 }
